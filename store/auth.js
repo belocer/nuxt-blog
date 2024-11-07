@@ -24,6 +24,15 @@ export const actions = {
   logout({ commit }) {
     commit("setToken", null);
   },
+  async createUser({ commit, dispatch }, formData) {
+    try {
+      const token = "9as8f67987as698fd7698as67f";
+      dispatch("setToken", token);
+    } catch (e) {
+      commit("setError", e, { root: true });
+      throw e;
+    }
+  },
 };
 
 export const getters = {
