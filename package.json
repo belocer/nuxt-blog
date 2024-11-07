@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-blog",
+  "version": "1.0.0",
+  "description": "Мой блог на Nuxt.js",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.25.3",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.15.14",
+    "express": "^4.16.4",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "sass": "^1.80.6",
+    "sass-loader": "^10.5.2"
+  }
+}
