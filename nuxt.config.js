@@ -1,6 +1,4 @@
 export default {
-  mode: "universal",
-
   head: {
     title: "nuxt-blog",
     htmlAttrs: {

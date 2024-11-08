@@ -15,6 +15,13 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# Стабильная версия Node
+$ nvm install 20.10.0
+$ nvm use 20.10.0
+
+# Стабильная версия SASS
+$ npm i sass@1.77.6 --save-exact
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).

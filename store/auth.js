@@ -11,7 +11,8 @@ export const mutations = {
 export const actions = {
   async login({ commit, dispatch }, formData) {
     try {
-      const token = "9as8f67987as698fd7698as67f";
+      const { token } = this.$axios.$post("/api/auth/admin/login", formData);
+      console.log(token);
       dispatch("setToken", token);
     } catch (e) {
       commit("setError", e, { root: true });
