@@ -17,6 +17,7 @@
     "express": "^4.16.4",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
+    "vue-markdown": "^2.2.4",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
